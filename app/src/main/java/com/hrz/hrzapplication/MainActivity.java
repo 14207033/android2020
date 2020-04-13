@@ -12,8 +12,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_layout);
 
-        TextView textView1=(TextView)findViewById(R.id.textview1);
+        TextView textView1 = (TextView)findViewById(R.id.textv1);
         textView1.setText("this is hrz android program.");
+
 
     }
 }
